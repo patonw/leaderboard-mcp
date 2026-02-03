@@ -1,0 +1,10 @@
+[project]
+name = "leaderboard-mcp"
+version = "0.1.0"
+description = "A toy MCP server for a leaderboard"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["fastmcp>=2.14.4", "redis>=7.1.0"]
+
+[project.scripts]
+leaderboard-mcp = "main:main"
